@@ -14,7 +14,7 @@ app.use('/profile',profileRouter);
 
 app.get('/',(req,res)=>{
     console.log('API working...');
-    res.json({message:'API working'});  
+    res.json({message:'API working and ci/cd pipeline working'});  
 })
 
 app.post('/hello',(req,res)=>{
