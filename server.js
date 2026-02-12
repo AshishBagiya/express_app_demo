@@ -36,6 +36,6 @@ app.post('/hello',(req,res)=>{
 
 app.use(require('./middleware/error'));
 
-app.listen(port,()=>{
+app.listen(port,"0.0.0.0",()=>{
     console.log(`application running on port ${port}`);
 })
